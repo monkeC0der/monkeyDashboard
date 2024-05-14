@@ -15,10 +15,6 @@ body {
 
 }
 
-.header {
-    grid-area: 1 / 2 / 2 / 3;
-}
-
 .sidebar {
     grid-area: 1 / 1 / 3 / 2;
     background-color: #065f46;
@@ -39,10 +35,6 @@ body {
 
 .sidebar-listOne a, .sidebar-listTwo a {
     margin-left: 15px;
-}
-
-
-a {
     text-decoration: none;
     color: #ecfdf5;
 }
@@ -58,6 +50,10 @@ a:hover {
 
 .icon {
     width:20px;
+}
+
+.header {
+    grid-area: 1 / 2 / 2 / 3;
 }
 
 .mainContent {
