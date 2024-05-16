@@ -12,14 +12,26 @@
 <body>
     <div class="wrapper">
         <div class="header">
-            <p>This will be my search bar</p>
-            <p>Notification Icon and Profile</p>
-            <p>Profile Image</p>
-            <p>Hi there,</p>
-            <h4>Timothy Ching</h4>
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>
+            <div class="header-searchContainer">
+                <img class="icon" src="./icons/searchIcon.svg" alt="">
+                <label for="search"></label>
+                <input class="header-searchContainer-input" type="text" id="search" name="search">
+            </div>
+            <div class="header-profileContainer">
+                <img class="notificationIcon" src="./icons/notificationIcon.svg" alt="">
+                <img class="profileImgSmall" src="./img/profileImg.jpg" alt="">
+                <h2>Monke Brainz</h2>
+            </div>
+            <div class="header-profileContainer-greeting">
+                <img class="profileImgMedium" src="./img/profileImg.jpg" alt="">
+                <h4>Hi there,</h4>
+                <h2>Monke Brainz (@almostsapien)</h2>
+            </div>
+            <div class="buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
         </div>
         <div class="sidebar">
             <h2 class="sidebar-title">Dashboard</h2>
